@@ -183,7 +183,7 @@ deleteOrder.addEventListener("click", (e) => {
     step = 0;
     mainDive.forEach((e, i) => {
         if (i == 0) return;
-        e.style.transform = `translateX(102%)`;
+        e.style.transform = `translateX(110%)`;
     });
     divOrder.forEach((e) => {
         e.innerHTML = "";
@@ -195,8 +195,7 @@ deleteOrder.addEventListener("click", (e) => {
 });
 
 function stp(num, where) {
-    translate = num > 0 ? "calc(-102% - 300px)" : "calc(102% + 300px)";
-
+    translate = num > 0 ? "calc(-110% - 300px)" : "calc(110% + 300px)";
     mainDive[step].style.transform = `translateX(${translate})`;
     if (step == 1 && num == -1) {
         translate = 0;

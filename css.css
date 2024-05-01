@@ -242,7 +242,7 @@ main > div {
   position: absolute;
   transition: 1s;
   height: 100%;
-  transform: translateX(102%);
+  transform: translateX(110%);
   min-width: 460px;
   width: 460px;
   border-radius: 5px;
@@ -254,10 +254,10 @@ main > div {
   -moz-transition: 1s;
   -ms-transition: 1s;
   -o-transition: 1s;
-  -webkit-transform: translateX(102%);
-  -moz-transform: translateX(102%);
-  -ms-transform: translateX(102%);
-  -o-transform: translateX(102%);
+  -webkit-transform: translateX(110%);
+  -moz-transform: translateX(110%);
+  -ms-transform: translateX(110%);
+  -o-transform: translateX(110%);
 }
 @media (max-width: 600px) {
   .first-Par > div {
