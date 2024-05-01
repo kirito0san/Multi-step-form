@@ -1,0 +1,464 @@
+:root {
+  --mainColor: #553a93;
+  --ButtonsColor: #cbb4ff;
+}
+body {
+  overflow: hidden;
+  min-height: 100vh;
+}
+#regForm {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+  width: 500px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: 0px auto;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
+}
+.down {
+  display: block;
+  border-color: transparent transparent #acacac transparent;
+  border-style: solid;
+  border-width: 0 6px 6px 6px;
+  width: 0px;
+  height: 0px;
+  background-color: white;
+  position: absolute;
+  right: 3px;
+  top: 11px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.phone {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+#phone,
+#phone2 {
+  margin: 0;
+  padding: 5px;
+}
+.code-container {
+  background-color: white;
+  position: relative;
+  width: 90px;
+  border-radius: 2px;
+  padding: 5px;
+  height: 25px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+#code {
+  z-index: 10;
+  position: absolute;
+  top: 28px;
+  right: 0;
+  list-style: none;
+  max-height: 100px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  width: 90px;
+  display: none;
+  flex-direction: column;
+}
+#code li {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+
+  gap: 5px;
+  cursor: pointer;
+}
+.show p {
+  margin: 0;
+}
+.show {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 100%;
+  color: black;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+#code li:hover {
+  background-color: rgb(238, 238, 238);
+}
+#code img,
+.imgs {
+  width: 30px;
+  height: 22px;
+}
+body {
+  display: flex;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  z-index: 20;
+  padding: 20px;
+  background-color: var(--ButtonsColor);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+option {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+button {
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+}
+.car-img {
+  width: 300px;
+  opacity: 0;
+
+  transition: 3s;
+  margin: 0px auto;
+  -webkit-transition: 3s;
+  -moz-transition: 3s;
+  -ms-transition: 3s;
+  -o-transition: 3s;
+}
+.car-imgD {
+  display: flex;
+}
+* {
+  font-family: monospace;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+select {
+  margin: 10px 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+label {
+  font-size: large;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.first-Par {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.first-Par > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+}
+.first-Par > div label {
+  display: block;
+  width: 250px;
+}
+.okkay {
+  width: fit-content;
+}
+/* For Webkit browsers */
+.step {
+  width: 100%;
+  scrollbar-color: white var(--mainColor);
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  transition: 4s;
+
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow-y: scroll;
+  max-height: 600px;
+  padding: 20px;
+}
+.delete-Order {
+  display: none;
+}
+main > div:nth-child(1) {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+main > div {
+  background-color: var(--mainColor);
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  transition: 1s;
+  height: 100%;
+  transform: translateX(102%);
+  min-width: 460px;
+  width: 460px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transform: translateX(102%);
+  -moz-transform: translateX(102%);
+  -ms-transform: translateX(102%);
+  -o-transform: translateX(102%);
+}
+@media (max-width: 600px) {
+  .first-Par > div {
+    align-items: baseline;
+    flex-direction: column;
+  }
+  main > div {
+    min-width: 100%;
+  }
+  button {
+    padding: 5px 10px;
+  }
+  #regForm {
+    padding: 5px;
+  }
+}
+
+button:hover {
+  background-color: rgb(128, 0, 128);
+}
+
+main {
+  width: 100%;
+  gap: 300px;
+  display: flex;
+  height: 600px;
+  transition: 1s;
+  position: relative;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.required {
+  position: relative;
+}
+.required::before {
+  content: "* ";
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: inline;
+}
+
+.first-step {
+  z-index: 10;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.second-step {
+  position: relative;
+}
+
+.fifth-step article {
+  display: flex;
+  justify-content: space-between;
+}
+.div-order > div {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.div-order p,
+label,
+button {
+  font-weight: 800;
+  font-size: 18px;
+}
+.div-order span {
+  font-size: 14px;
+}
+.div-order {
+  margin: 0px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  transition: 5s;
+  /* opacity: 0; */
+  gap: 5px;
+  border-radius: 5px;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: 5s;
+  -moz-transition: 5s;
+  -ms-transition: 5s;
+  -o-transition: 5s;
+}
+.AnotherOrder {
+  opacity: 0;
+  transition: 3s;
+  -webkit-transition: 3s;
+  -moz-transition: 3s;
+  -ms-transition: 3s;
+  -o-transition: 3s;
+}
+input,
+textarea {
+  outline: none;
+  margin: 5px 0;
+}
+input {
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+  min-height: 156px;
+}
+.Add-Order {
+  display: none;
+}
+.carImg {
+  width: 100%;
+}
+.imgPreview {
+  width: 100px;
+  height: 100px;
+}
+.previewFile {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.picsBtn,
+.picsBtn > p {
+  margin: 0;
+}
+.picsBtn > p {
+  margin-top: 10px;
+}
+.previewFileParent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#pics {
+  color: transparent;
+  display: none;
+}
+#pics button {
+}
+.condition {
+  padding: 10px 0;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  transition: 0.3s;
+  flex-direction: column;
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--ButtonsColor);
+  width: 300px;
+  border-radius: 5px;
+  z-index: 20;
+  gap: 10px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.sixth-step {
+  justify-content: center;
+  text-align: center;
+}
+.step h1 {
+  font-size: 20px;
+}
+.sixth-step h1 {
+  font-size: 20px;
+  color: rgb(139, 234, 139);
+}
+.step span {
+  font-weight: normal;
+  font-size: 16px;
+}
+.step p {
+  font-size: 18px;
+  font-weight: 700;
+}
